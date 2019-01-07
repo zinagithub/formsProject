@@ -1,0 +1,72 @@
+body {
+	background-color: #ECEEF1;
+}
+
+header {
+	display: flex;
+	direction: row;
+	justify-content: flex-end;
+	margin: 5px 10px;
+}
+
+header div {
+	margin-right: 10px;
+}
+
+fieldset {
+	margin: 10px auto;
+	width: 300px;
+}
+
+li {
+	display: inline;
+	margin: 3px;
+}
+ul {
+	text-align: center;
+	padding: 0;
+}
+
+input {
+	display: block;
+	width: 250px;
+	margin: 10px auto;
+}
+
+p {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+#submit {
+	margin: 5px auto;
+	background-color: #0077C5;
+	border: 2px solid #0077C5;
+	color: white;
+	padding: 14px 100px;
+	border-radius: 7px;
+}
+
+#menu {
+	color: grey;
+}
+
+#header p{
+	font-size: 0.85em;
+	margin: 0;
+}
+
+#signOut{
+	background-color: #0077C5;
+	border: 2px solid #0077C5;
+	color: white;
+	padding: 5px 30px;
+	border-radius: 7px;
+}
