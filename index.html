@@ -6,41 +6,46 @@
 </head>
 <body>
      <header>
-     	<p>Already have an Intuit account?</p>
-     	<p>I forget my user ID or Passward</p>
-     	<button>Sign In</button>
+          <div id='header'>
+          	<p>Already have an Intuit account?</p>
+          	<p><a href="">I forget my user ID or Password</a></p>
+          </div>
+     	<button id='signOut'>Sign In</button>
      </header>
 
 
-     <div id = "menu">
-     	<h1>intuit</h1>
-     	<ul>
-     		<li>mint</li>
-     		<li>quickbooks</li>
-     		<li>turbotax</li>
-     	</ul>
-     </div>
+     <fieldset>
+          <div id='menu'>
+          	<h1>intuit</h1>
+          	<ul>
+          		<li>mint</li>
+          		<li>quickbooks</li>
+          		<li>turbotax</li>
+          	</ul>
+          </div>
 
 
      <div>
-     	<h2>One Account.</h2>
-     	<h2>Everything Intuit.</h2>
-     	<p>Create an account for all of Intuit's products including Mint.<a href=""> Learn more</a></p>
-     	
+          	<h2>One Account.</h2>
+          	<h2>Everything Intuit.</h2>
+          	<p>Create an account for all of Intuit's products including Mint.<a href=""> Learn more</a></p>
      	<form>
-     		<label>Email :
-     		      <input type="Email" name="Email">
+     		<label>
+                    Email:
+     		      <input type="email" name="Email">
      		</label>
 
      		<label>
+                    Phone:
      		      <input type="tel" name="phone">
      		</label>
 
             <label>
-     		      <input type="Password" name="Password">
+                    Password:
+     		      <input type="password" name="Password">
      		</label>
 
-     		<button>Create Account</button>
+     		<button id='submit'>Create Account</button>
       
      		<p>By clicking Create Account, you agree to our</p>
      		<p><a href="">License Agreement </a>and have read and acknowledge</p>
@@ -49,7 +54,7 @@
 
      	<div  id = "footerForm"></div>
      </div>
-
+</fieldset>
 
 
      <footer>
