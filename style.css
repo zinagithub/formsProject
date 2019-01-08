@@ -16,13 +16,17 @@ header div {
 fieldset {
 	margin: 10px auto;
 	width: 300px;
+	background: white;
 }
 
 li {
 	display: inline;
 	margin: 3px;
+	font-size: 1em;
+	font-family: 'Courier New';
 }
 ul {
+	margin-top : 10px;
 	text-align: center;
 	padding: 0;
 }
@@ -39,10 +43,21 @@ p {
 
 h2 {
 	text-align: center;
+	margin-top: 0px;
+	font-family: Arial;
+	color : gray;
 }
-
+#oneTitle {
+	margin-top: 20px;
+	 margin-bottom:0px;
+}
+#menu h1 {
+	margin-bottom: 0px;
+}
 h1 {
 	text-align: center;
+	font-size: 2.3em;
+	font-family:  'Courier New';
 }
 
 #submit {
