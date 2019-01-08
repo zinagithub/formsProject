@@ -1,5 +1,7 @@
 body {
 	background-color: #ECEEF1;
+	font-family: 'Arial';
+	color: #3f4241;
 }
 
 header {
@@ -7,6 +9,7 @@ header {
 	direction: row;
 	justify-content: flex-end;
 	margin: 5px 10px;
+	font-size: 0.9em;
 }
 
 header div {
@@ -15,14 +18,15 @@ header div {
 
 fieldset {
 	margin: 10px auto;
-	width: 300px;
+	width: 350px;
 	background: white;
+	border: 1px solid #d6d6c2;
 }
 
 li {
 	display: inline;
 	margin: 3px;
-	font-size: 1em;
+	font-size: 1.2em;
 	font-family: 'Courier New';
 }
 ul {
@@ -34,7 +38,8 @@ ul {
 input {
 	display: block;
 	width: 250px;
-	margin: 10px auto;
+	margin: 5px auto 20px auto;
+	padding: 5px 15px;
 }
 
 p {
@@ -45,12 +50,18 @@ h2 {
 	text-align: center;
 	margin-top: 0px;
 	font-family: Arial;
-	color : gray;
+	font-weight: normal;
 }
 #oneTitle {
 	margin-top: 20px;
-	 margin-bottom:0px;
+	margin-bottom:0px;
 }
+#idea { 
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 0.9em;
+}
+
 #menu h1 {
 	margin-bottom: 0px;
 }
@@ -61,11 +72,11 @@ h1 {
 }
 
 #submit {
-	margin: 5px auto;
+	margin: 0 10%;
 	background-color: #0077C5;
 	border: 2px solid #0077C5;
 	color: white;
-	padding: 14px 100px;
+	padding: 5px 100px;
 	border-radius: 7px;
 }
 
@@ -84,4 +95,38 @@ h1 {
 	color: white;
 	padding: 5px 30px;
 	border-radius: 7px;
+}
+
+label p {
+	font-size: 0.6em;
+	text-align: left;
+	margin-left: 33px;
+	margin-top: -13px; 
+}
+label {
+	margin-left: 33px;
+	font-size: 0.9em;
+}
+
+#inputs {
+	margin-bottom: -15px;
+}
+
+#bottom {
+	color: #96999e;
+	font-size: 0.7em;
+}
+
+footer {
+	font-size: 0.7em;
+}
+
+footer ul li {
+	font-family: arial;
+	font-size: 1.1em;
+}
+
+.lowYmargin {
+	margin-top: 3px;
+	margin-bottom: 3px;
 }
