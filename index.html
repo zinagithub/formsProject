@@ -28,28 +28,32 @@
      <div>
           	<h2 id ="oneTitle">One Account.</h2>
           	<h2>Everything Intuit.</h2>
-          	<p>Create an account for all of Intuit's products including Mint.<a href=""> Learn more</a></p>
+          	<p id='idea'>Create an account for all of Intuit's products including Mint.<a href=""> Learn more</a></p>
      	<form>
-     		<label>
-                    Email:
-     		      <input type="email" name="Email">
-     		</label>
+               <div id='inputs'>
+          		<label>
+                         Email adress:
+          		      <input type="email" name="Email">
+          		</label>
 
-     		<label>
-                    Phone:
-     		      <input type="tel" name="phone">
-     		</label>
+          		<label>
+                         Phone (recommend):
+          		      <input type="tel" name="phone">
+                          <p>Standard call, messaging or data rates may apply.</p>
+          		</label>
 
-            <label>
-                    Password:
-     		      <input type="password" name="Password">
-     		</label>
+                 <label id='pass'>
+                         Password:
+          		      <input type="password" name="Password">
+          		</label>
+               </div>
 
      		<button id='submit'>Create Account</button>
-      
-     		<p>By clicking Create Account, you agree to our</p>
-     		<p><a href="">License Agreement </a>and have read and acknowledge</p>
-     		<p><a href="">our Privacy Statement.</a> </p>
+               <div id='bottom'>
+          		<p><i>By clicking Create Account, you agree to our</i></p>
+          		<p><i><a href="">License Agreement </a>and have read and acknowledge</i></p>
+          		<p><i>our <a href="">Privacy Statement.</a></i> </p>
+               </div>
      	</form>
 
      	<div  id = "footerForm"></div>
@@ -58,15 +62,15 @@
 
 
      <footer>
-     	   <ul>
+     	   <ul class = 'lowYmargin'>
 	     		<li>Legal</li>
 	     		<li>Privacy</li>
 	     		<li>Security</li>
      	   </ul>
-     	   <div id = "copyright">
-     	   	  <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mit are registered trademarks of Intuit Inc.
+     	   <div id = "copyright" >
+     	   	  <p class = 'lowYmargin'>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mit are registered trademarks of Intuit Inc.
               </p> 
-     	   	  <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.
+     	   	  <p class = 'lowYmargin'>Terms and conditions, features, support, pricing, and service options subject to change without notice.
      	   	  </p>
      	   </div>
      </footer>
